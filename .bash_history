@@ -1,24 +1,3 @@
-systemctl services status
-systemctl status 
-clear
-chmod 666 file4
-ll
-touch sahil
-ll
-vim sahil 
-vi sahil 
-cat sahil 
-ll
-touch sahil.txt
-ll
-touch sahil.png
-ll
-cat sahil.png
-vi sahil.png
-cat sahil.png
-pwd
-ll
-ls -l
 gzip sahil
 ll
 unzip sahil.gz
@@ -998,3 +977,24 @@ git clean -n dry run
 git status
 git clean -f
 git status
+git add .
+pwd
+git init
+ls 
+ls -a
+git status
+touch newfile
+git status
+git add .
+git commit -m "First commit from virginia"\
+git status
+git log
+git show  cb05e3f6
+git show cb05e3f6
+git branch 
+git branch newbranch1
+git branch 
+git checkout newbranch1
+git branch
+git log --oneline
+git remote add origin https://github.com/sahilmendiratta/New.git
