@@ -1,13 +1,3 @@
-gzip sahil
-ll
-unzip sahil.gz
-ungzip sahil.txt
-ll
-su ec2-user
-chmod 777 file1
-ls -ltr
-wc file1
-wc -l file1
 pwd
 cd /
 ls -ltr
@@ -998,3 +988,13 @@ git checkout newbranch1
 git branch
 git log --oneline
 git remote add origin https://github.com/sahilmendiratta/New.git
+git  status
+git checkout master 
+git branch 
+git statis
+git status
+git checkout newbranch1
+git status
+exit
+sudo su -
+exit
