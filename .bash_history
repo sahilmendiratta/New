@@ -1,19 +1,3 @@
-pwd
-cd /
-ls -ltr
-cd ec2 -user
-cd ec2-user
-cd /home
-ls -ltr
-cd ec2-user
-ld -ltr
-ls -ltr
-mv files /tmp
-cd /tmp
-ls -ltr
-cd /home/ec2-user
-ls -ltr
-cd /
 cp /home/ec2-user/log  /tmp
 cd /
 ls -ltr
@@ -998,3 +982,19 @@ git status
 exit
 sudo su -
 exit
+git status
+git add .
+git commit -m "new commit from virgina"
+git push -u origin master
+git branch 
+git status
+git add .
+git commit -m "this is new commit from virgina"
+git push -u origin master 
+touch priyanka
+git status
+vi priyanka
+git add priyanka
+git commit -m "priyanka info"
+ git push -u origin master
+git status
